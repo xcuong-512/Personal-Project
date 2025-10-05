@@ -26,8 +26,8 @@ class UserInfor extends React.Component {
     render() {
         return (
             <div>
-                My name is {this.state.name} and i am from
-                {this.state.address} and I am {this.state.age} years old.
+                My name is {this.state.name} and i am
+                from {this.state.address} and I am {this.state.age} years old.
                 <form onSubmit={(event) => this.handleOnSubmit(event)}>
                     <label>Your Name: </label>
                     <input
