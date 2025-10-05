@@ -9,7 +9,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{ color: 'blueviolet' }}>
+      <div style={{ color: 'blueviolet' }} className='app-container'>
         Hello World with Xuan Cuong &amp; React
         <MyComponent />
       </div>
